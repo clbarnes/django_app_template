@@ -16,17 +16,16 @@ Create an application using this as a template with
 
 ## Quick start
 
-1. Install the app in your project environment using 
+- Install the app in your project environment using 
 
-    python setup.py sdist 
-    
+    python setup.py sdist
     pip install --user ./dist/app_template-<version>.tar.gz
     
 or
     
     python setup.py install
 
-2. Add "app_template" to your project's INSTALLED_APPS setting in 
+- Add "app_template" to your project's INSTALLED_APPS setting in 
  <project_name>/settings.py like this::
 
     INSTALLED_APPS = [
@@ -34,9 +33,9 @@ or
         'app_template',
     ]
 
-3. Include the app_template URLconf in your project urls.py like this::
+- Include the app_template URLconf in your project urls.py like this::
 
     url(r'^app_template/', include('app_template.urls')),
 
-4. Run `python manage.py migrate` to create the app_template models.
+- Run `python manage.py migrate` to create the app_template models.
 
