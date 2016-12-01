@@ -16,9 +16,10 @@ Create an application using this as a template with
 
 ## Quick start
 
-1. Install the app in your project environment using
+1. Install the app in your project environment using 
+
+    python setup.py sdist 
     
-    python setup.py sdist
     pip install --user ./dist/app_template-<version>.tar.gz
     
 or
