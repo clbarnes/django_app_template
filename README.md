@@ -34,14 +34,18 @@ python setup.py install
 - Add "app_template" to your project's INSTALLED_APPS setting in 
  <project_name>/settings.py like this::
 
-    INSTALLED_APPS = [
-        ...
-        'app_template',
-    ]
+```python
+INSTALLED_APPS = [
+    ...
+    'app_template',
+]
+```
 
 - Include the app_template URLconf in your project urls.py like this::
 
-    url(r'^app_template/', include('app_template.urls')),
+```python
+url(r'^app_template/', include('app_template.urls')),
+```
 
 - Run `python manage.py migrate` to create the app_template models.
 
