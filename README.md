@@ -28,7 +28,7 @@ pip install --user ./dist/app_template-<version>.tar.gz
 or
 
 ```bash    
-    python setup.py install
+python setup.py install
 ```
 
 - Add "app_template" to your project's INSTALLED_APPS setting in 
