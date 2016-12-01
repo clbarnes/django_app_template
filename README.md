@@ -11,9 +11,9 @@ the app_template module into your project.
 Create an application using this as a template with 
 
 ```bash
-    manage.py startapp \
-        --template path/to/app_template/module \
-        <app_name> <empty_app_directory>
+manage.py startapp \
+    --template path/to/app_template/module \
+    <app_name> <empty_app_directory>
 ```
 
 ## Quick start
