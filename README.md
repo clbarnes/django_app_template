@@ -4,6 +4,16 @@ app_template is a template django app, which can be added to an existing
 django project with a simple pip or setup.py install. You can also copy 
 the app_template module into your project.
 
+## USE AS TEMPLATE
+
+*Delete this in your app*
+
+Create an application using this as a template with 
+
+    manage.py startapp \
+        --template path/to/app_template/module \
+        <app_name> <empty_app_directory>
+
 ## Quick start
 
 1. Install the app in your project environment using
