@@ -10,20 +10,26 @@ the app_template module into your project.
 
 Create an application using this as a template with 
 
+```bash
     manage.py startapp \
         --template path/to/app_template/module \
         <app_name> <empty_app_directory>
+```
 
 ## Quick start
 
 - Install the app in your project environment using 
 
-    python setup.py sdist
-    pip install --user ./dist/app_template-<version>.tar.gz
+```bash
+python setup.py sdist
+pip install --user ./dist/app_template-<version>.tar.gz
+```
     
 or
-    
+
+```bash    
     python setup.py install
+```
 
 - Add "app_template" to your project's INSTALLED_APPS setting in 
  <project_name>/settings.py like this::
